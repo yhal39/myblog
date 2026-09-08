@@ -1,3 +1,6 @@
 [submodule "themes/reimu"]
 	path = themes/reimu
 	url = https://github.com/D-Sketon/hugo-theme-reimu.git
+[submodule "public"]
+	path = public
+	url = https://github.com/yhal39/yhal39.github.io.git
