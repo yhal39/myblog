@@ -1,4 +1,15 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://myblog-dpccjkkowcxx.edgeone.dev/'
 locale = 'en-us'
 title = 'My New Hugo Project'
-theme = "reimu" 
+theme = "reimu"
+
+# ===== 代码高亮配置（关键）=====
+[markup.highlight]
+guessSyntax = true
+noClasses = false
+
+# ===== 数学公式 passthrough（可选）=====
+[markup.goldmark.extensions.passthrough]
+enable = true
+delimiters.block = [["\\[", "\\]"], ["$$", "$$"]]
+delimiters.inline = [["\\(", "\\)"], ["$", "$"]]
